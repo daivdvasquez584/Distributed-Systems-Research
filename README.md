@@ -1,3 +1,3 @@
 # Distributed-Systems-Research
 
-This application has three spouts that emit a random integer. The moving average is kept of the stream of intergers 
+This application uses Apache Storm. This application has three spouts which emit a stream of random integers. The bolts are then used to keep a moving average. 
